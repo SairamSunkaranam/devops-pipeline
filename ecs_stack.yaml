@@ -125,7 +125,7 @@ Resources:
         - FARGATE
       ContainerDefinitions:
         - Name: '2048'
-          Image: !Sub '588738614244.dkr.ecr.ap-south-1.amazonaws.com/2048:${IMAGETAG}'
+          Image: !Sub '588738614244.dkr.ecr.ap-south-1.amazonaws.com/2048-new1:${IMAGETAG}'
           Memory: 512
           PortMappings:
             - ContainerPort: 80
